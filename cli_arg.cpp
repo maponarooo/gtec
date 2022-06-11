@@ -35,6 +35,7 @@ bool CliArg::parse(const std::string& uri)
         if (!find_port(rest)) {
             return false;
         }
+        break;
     }
 
     return true;
